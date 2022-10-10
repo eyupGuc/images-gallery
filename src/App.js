@@ -4,13 +4,13 @@ import Card from "./component/Card";
 import React from "react";
 
 function App() {
-  console.log(data);
+  // console.log(data);
 
   return (
     <>
       <div className="App">
-        <h1>Hello</h1>
-        <Card />
+        <h1>Albums</h1>
+       
         <div>{data.map((card) => <Card src={card.src.large} name={card.photographer}/>)}</div>
       </div>
     </>

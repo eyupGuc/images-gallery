@@ -4,7 +4,7 @@ function Card(props) {
   return (
     <div className="container">
       <div className="picture">
-        <img
+        <img style={{width:"200px"}}
           src={props.src}
           alt="img"
         />
