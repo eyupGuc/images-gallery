@@ -11,7 +11,7 @@ function App() {
       <div className="App">
         <h1>Albums</h1>
        
-        <div>{data.map((card) => <Card src={card.src.large} name={card.photographer}/>)}</div>
+        <div className="pictures">{data.map((card) => <Card src={card.src.large} name={card.photographer}/>)}</div>
       </div>
     </>
   );
